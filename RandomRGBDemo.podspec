@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "RandomRGBDemo"
           #2.
-          s.version            = "1.0.0"
+          s.version            = "1.0.4"
           #3.  
           s.summary         = "Sort description of 'RandomRGBDemo' framework"
           #4.
