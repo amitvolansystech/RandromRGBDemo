@@ -10,7 +10,9 @@ import Foundation
 public func randomRGBUIColor()->UIColor {
     return .randomeColor()
 }
-
+public func randomRGBUIColorHalfBrightness()->UIColor {
+    return .randomeColorHalfBrightness()
+}
 extension CGFloat {
     static func random()-> CGFloat {
         return CGFloat(arc4random()) / CGFloat(Int32.max)
@@ -19,5 +21,8 @@ extension CGFloat {
 extension UIColor {
     static func randomeColor ()-> UIColor {
         return UIColor(red: .random(), green: .random(), blue: .random(), alpha: 1.0)
+    }
+    static func randomeColorHalfBrightness ()-> UIColor {
+        return UIColor(red: .random(), green: .random(), blue: .random(), alpha: 0.5)
     }
 }
